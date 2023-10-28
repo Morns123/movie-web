@@ -61,16 +61,6 @@ export default function ListMovie(){
                             6
                         </Link>
                     </li>
-                    <li>
-                        <Link href="/?page=5">
-                            7
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/?page=5">
-                            8
-                        </Link>
-                    </li>
                     <li><AiOutlineRight/></li>
                 </ul>
             </div>
