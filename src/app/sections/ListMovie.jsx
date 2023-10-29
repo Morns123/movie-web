@@ -15,7 +15,7 @@ export default function ListMovie(){
     return (
         <>
             <div>
-            <select name="" id="" onChange={e => setSortBy(e.target.value)} className="mb-10">
+            <select name="" id="" onChange={e => setSortBy(e.target.value)} className="bg-gray-200 rounded-lg mb-10 pl-1 pt-1 pr-1 pb-1">
                 <option value="popularity.desc">Popularity Desc</option>
                 <option value="popularity.asc">Popularity Asc</option>
                 <option value="revenue.desc">Revenue Desc</option>
