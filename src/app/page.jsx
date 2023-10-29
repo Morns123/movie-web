@@ -6,7 +6,7 @@ import SigninPop from "./signin/page";
 export default function Home() {
   return (
     <>
-      <header className="py-2 shadow-md shadow-gray-600 ">
+      <header className="py-2 shadow-md shadow-gray-600">
         <nav className="flex container mx-auto justify-between items-center ">
           <Image src={logo} alt="logo" width="100" height="100" />
           <div>
