@@ -11,6 +11,11 @@ export default function Home() {
           <div>
             <input type="text" placeholder="Searching" />
           </div>
+          <div>
+            <label htmlFor="">
+              Sign In 
+            </label>
+          </div>
         </nav>  
       </header>
       <main className="container mx-auto mt-10 relative">
