@@ -10,6 +10,8 @@ export default function ListMovie(){
     const [sortBy, setSortBy] = useState('popularity.desc')
     const params = useSearchParams()
     const data = useGetMovies(sortBy ,params.get('page'))
+    const currentPage = parseInt(params.get('page')) || 1;
+
     return (
         <>
             <div>
@@ -30,38 +32,23 @@ export default function ListMovie(){
 
             <div className="flex justify-center gap-10 ">
                 <ul className="flex items-center gap-10 mt-10">
-                    <li><AiOutlineLeft/></li>           
                     <li>
-                        <Link href="/?page=1">
-                            1
+                        <Link href={`/?page=${currentPage - 1}`}>
+                            <AiOutlineLeft/>
                         </Link>
                     </li>
+                    {[...Array(6).keys()].map((i) => (
+                        <li key={i}>
+                            <Link href={`/?page=${i + 1}`}>
+                                {i + 1}
+                            </Link>
+                        </li>
+                    ))}
                     <li>
-                        <Link href="/?page=2">
-                            2
+                        <Link href={`/?page=${currentPage + 1}`}>
+                            <AiOutlineRight/>
                         </Link>
                     </li>
-                    <li>
-                        <Link href="/?page=3">
-                            3
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/?page=4">
-                            4
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/?page=5">
-                            5
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/?page=5">
-                            6
-                        </Link>
-                    </li>
-                    <li><AiOutlineRight/></li>
                 </ul>
             </div>
         </>
