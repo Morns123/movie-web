@@ -1,6 +1,7 @@
 import Image from "next/image"
 import logo from "@/assets/logo.svg"
 import ListMovie from "./sections/ListMovie"
+import SigninPop from "./signin/page";
 
 export default function Home() {
   return (
@@ -9,12 +10,10 @@ export default function Home() {
         <nav className="flex container mx-auto justify-between items-center ">
           <Image src={logo} alt="logo" width="100" height="100" />
           <div>
-            <input type="text" placeholder="Searching" />
+            <input type="text" placeholder="Searching" className="rounded-lg" />
           </div>
           <div>
-            <label htmlFor="">
-              Sign In 
-            </label>
+            <SigninPop/>
           </div>
         </nav>  
       </header>
