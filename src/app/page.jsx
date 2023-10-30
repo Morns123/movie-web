@@ -19,7 +19,7 @@ export default function Home() {
         </nav>
       </header>
       <div>
-        <SlideAsAnything/>
+        {/* <SlideAsAnything/> */}
       </div>
       <main className="container mx-auto mt-10 relative">
         <ListMovie/>
