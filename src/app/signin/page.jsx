@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { useState } from 'react'
-import { Button, Checkbox, Label, Modal, TextInput } from 'flowbite-react'
+import { useState } from "react";
+import { Button, Checkbox, Label, Modal, TextInput } from "flowbite-react";
 
 export default function SigninPop() {
   const [openModal, setOpenModal] = useState();
@@ -10,12 +10,21 @@ export default function SigninPop() {
 
   return (
     <>
-      <Button onClick={() => props.setOpenModal('form-elements')}>Sign In</Button>
-      <Modal show={props.openModal === 'form-elements'} size="md" popup onClose={() => props.setOpenModal(undefined)}>
+      <Button onClick={() => props.setOpenModal("form-elements")}>
+        Sign In
+      </Button>
+      <Modal
+        show={props.openModal === "form-elements"}
+        size="md"
+        popup
+        onClose={() => props.setOpenModal(undefined)}
+      >
         <Modal.Header />
         <Modal.Body>
           <div className="space-y-6">
-            <h3 className="text-xl font-medium text-gray-900 dark:text-white">Sign in to our platform</h3>
+            <h3 className="text-xl font-medium text-gray-900 dark:text-white">
+              Sign in to our platform
+            </h3>
             <div>
               <div className="mb-2 block">
                 <Label htmlFor="email" value="Your email" />
@@ -33,7 +42,10 @@ export default function SigninPop() {
                 <Checkbox id="remember" />
                 <Label htmlFor="remember">Remember me</Label>
               </div>
-              <a href="#" className="text-sm text-cyan-700 hover:underline dark:text-cyan-500">
+              <a
+                href="#"
+                className="text-sm text-cyan-700 hover:underline dark:text-cyan-500"
+              >
                 Lost Password?
               </a>
             </div>
@@ -42,7 +54,10 @@ export default function SigninPop() {
             </div>
             <div className="flex justify-between text-sm font-medium text-gray-500 dark:text-gray-300">
               Not registered?&nbsp;
-              <a href="#" className="text-cyan-700 hover:underline dark:text-cyan-500">
+              <a
+                href="#"
+                className="text-cyan-700 hover:underline dark:text-cyan-500"
+              >
                 Create account
               </a>
             </div>
@@ -50,7 +65,5 @@ export default function SigninPop() {
         </Modal.Body>
       </Modal>
     </>
-  )
+  );
 }
-
-

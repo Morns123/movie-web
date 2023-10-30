@@ -4,10 +4,10 @@
 
 @layer components {
   input {
-    @apply rounded-md outline-none border border-gray-800 py-4 px-4
+    @apply rounded-md outline-none border border-gray-800 py-4 px-4;
   }
 
-  .container{
+  .container {
     max-width: 95%;
   }
 }

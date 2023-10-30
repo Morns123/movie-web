@@ -1,11 +1,7 @@
-'use client'
+"use client";
 
-import { Carousel } from 'flowbite-react'
+import { Carousel } from "flowbite-react";
 
 export default function Slide() {
-  return (
-    <Carousel pauseOnHover>
-
-    </Carousel>
-  )
+  return <Carousel pauseOnHover></Carousel>;
 }
