@@ -15,7 +15,7 @@ export default function FooterWithSocialMediaIcons() {
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
-            <Image src={logo} width={100} height={100} />
+            <Image src={logo} alt="Youtube" width={100} height={100}/>
             <br />
             <p style={{ color: "white" }}>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />{" "}
