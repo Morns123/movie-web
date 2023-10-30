@@ -33,16 +33,16 @@ export default function SigninPop() {
                 <Checkbox id="remember" />
                 <Label htmlFor="remember">Remember me</Label>
               </div>
-              <a href="/modal" className="text-sm text-cyan-700 hover:underline dark:text-cyan-500">
+              <a href="#" className="text-sm text-cyan-700 hover:underline dark:text-cyan-500">
                 Lost Password?
               </a>
             </div>
             <div className="w-full">
-              <Button>Log in to your account</Button>
+              <Button>Log in</Button>
             </div>
             <div className="flex justify-between text-sm font-medium text-gray-500 dark:text-gray-300">
               Not registered?&nbsp;
-              <a href="/modal" className="text-cyan-700 hover:underline dark:text-cyan-500">
+              <a href="#" className="text-cyan-700 hover:underline dark:text-cyan-500">
                 Create account
               </a>
             </div>
