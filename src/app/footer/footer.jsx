@@ -15,27 +15,49 @@ export default function FooterWithSocialMediaIcons() {
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
-            <Image src={logo} alt="Youtube" width={100} height={100} className="m-2 ml-20"/>
+            <Image
+              src={logo}
+              alt="Youtube"
+              width={100}
+              height={100}
+              className="m-2 ml-20"
+            />
             <br />
             <p style={{ color: "white" }} className="m-2 ml-20">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />{" "}
-              Sequi a minima neque! Saepe repudiandae optio dolore, <br />{" "}
-              adipisci asperiores obcaecati temporibus aperiam est, <br /> nemo
+              Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
+              Sequi a minima neque! Saepe repudiandae optio dolore, <br />
+              adipisci asperiores obcaecati temporibus aperiam est, nemo
               laboriosam recusandae minus. Laboriosam ipsa autem error.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-1">
-            <div className="pl-20 justify-end">
-              <Footer.Title title="Tentang Kami" style={{ color: "white" }} className="m-2 ml-20"/>
+            <div className=" justify-end">
+              <Footer.Title
+                title="Tentang Kami"
+                style={{ color: "white" }}
+                className="m-2 ml-20"
+              />
               <Footer.LinkGroup col className="m-2 ml-20">
-                <Footer.Link href="#" style={{ color: "white" }}>Blog</Footer.Link>
-                <Footer.Link href="#" style={{ color: "white" }}>Layanan</Footer.Link>
-                <Footer.Link href="#" style={{ color: "white" }}>Karir</Footer.Link>
-                <Footer.Link href="#" style={{ color: "white" }}>Pusat Media</Footer.Link>
+                <Footer.Link href="#" style={{ color: "white" }}>
+                  Blog
+                </Footer.Link>
+                <Footer.Link href="#" style={{ color: "white" }}>
+                  Layanan
+                </Footer.Link>
+                <Footer.Link href="#" style={{ color: "white" }}>
+                  Karir
+                </Footer.Link>
+                <Footer.Link href="#" style={{ color: "white" }}>
+                  Pusat Media
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
-            <div className="justify-end">
-              <Footer.Title title="Download" className="m-2" style={{ color: "white" }}/>
+            <div className="">
+              <Footer.Title
+                title="Download"
+                className="m-2"
+                style={{ color: "white" }}
+              />
               <Footer.LinkGroup row>
                 <Footer.Link href="#">
                   <Image
@@ -54,7 +76,11 @@ export default function FooterWithSocialMediaIcons() {
                   />
                 </Footer.Link>
               </Footer.LinkGroup>
-              <Footer.Title title="Social Media" className="m-2" style={{ color: "white" }}/>
+              <Footer.Title
+                title="Social Media"
+                className="m-2"
+                style={{ color: "white" }}
+              />
               <Footer.LinkGroup row>
                 <Footer.Link href="#">
                   <Image src={face} alt="Facebook" width={50} height={50} />
