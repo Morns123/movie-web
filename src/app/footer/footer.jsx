@@ -52,7 +52,7 @@ export default function FooterWithSocialMediaIcons() {
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
-            <div className="">
+            <div>
               <Footer.Title
                 title="Download"
                 className="m-2"
