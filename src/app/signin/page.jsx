@@ -20,7 +20,7 @@ export default function SigninPop() {
               <div className="mb-2 block">
                 <Label htmlFor="email" value="Your email" />
               </div>
-              <TextInput id="email" placeholder="name@company.com" required />
+              <TextInput id="email" placeholder="name@example.com" required />
             </div>
             <div>
               <div className="mb-2 block">
