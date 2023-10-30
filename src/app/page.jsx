@@ -2,7 +2,8 @@ import Image from "next/image"
 import logo from "@/assets/logo.svg"
 import ListMovie from "./sections/ListMovie"
 import SigninPop from "./signin/page";
-import SlideAsAnything from "./slide/slide";
+import Slide from "./slide/slide";
+import FooterWithLogo from "./footer/footer";
 
 export default function Home() {
   return (
@@ -18,11 +19,10 @@ export default function Home() {
           </div>
         </nav>
       </header>
-      <div>
-        {/* <SlideAsAnything/> */}
-      </div>
       <main className="container mx-auto mt-10 relative">
+        <Slide/>
         <ListMovie/>
+        <FooterWithLogo/>
       </main>
     </>
   );
