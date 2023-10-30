@@ -1,7 +1,7 @@
-'use client';
+'use client'
 
-import { Footer } from 'flowbite-react';
-import Image from 'next/image';
+import { Footer } from 'flowbite-react'
+import Image from 'next/image'
 import applestore from '@/assets/applestore.svg'
 import googleplay from '@/assets/googleplay.svg'
 import face from '@/assets/face.svg'

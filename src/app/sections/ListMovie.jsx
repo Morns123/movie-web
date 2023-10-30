@@ -1,4 +1,5 @@
 "use client"
+
 import { useGetMovies } from "@/hooks/useMovies"
 import Card from "../components/Card"
 import Link from "next/link"
