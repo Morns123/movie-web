@@ -29,8 +29,10 @@ export default function Home() {
           </div>
         </nav>
       </header>
-      <main className="container mx-auto mt-10 relative">
+      <main className="mx-auto mt-10 relative">
         <Slide />
+      </main>
+      <main className="container mx-auto mt-10 relative">
         <ListMovie />
       </main>
       <footer>
