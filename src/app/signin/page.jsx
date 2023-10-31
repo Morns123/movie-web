@@ -10,7 +10,7 @@ export default function SigninPop() {
 
   return (
     <>
-      <Button onClick={() => props.setOpenModal("form-elements")}>
+      <Button gradientDuoTone="purpleToBlue" onClick={() => props.setOpenModal("form-elements")}>
         Sign In
       </Button>
       <Modal
