@@ -7,24 +7,26 @@ export default function Slide() {
     <Carousel>
       <img
         alt="..."
-        src="https://images.unsplash.com/photo-1698444214003-dfdea976064a?auto=format&fit=crop&q=80&w=2531&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
       />
       <img
         alt="..."
-        src="https://images.unsplash.com/photo-1698444214003-dfdea976064a?auto=format&fit=crop&q=80&w=2531&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
       />
       <img
         alt="..."
-        src="https://images.unsplash.com/photo-1698444214003-dfdea976064a?auto=format&fit=crop&q=80&w=2531&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
       />
       <img
         alt="..."
-        src="https://images.unsplash.com/photo-1698444214003-dfdea976064a?auto=format&fit=crop&q=80&w=2531&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
       />
       <img
         alt="..."
-        src="https://images.unsplash.com/photo-1698444214003-dfdea976064a?auto=format&fit=crop&q=80&w=2531&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
       />
     </Carousel>
   )
 }
+
+
