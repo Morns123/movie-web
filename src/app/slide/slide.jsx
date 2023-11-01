@@ -1,30 +1,17 @@
-'use client';
+"use client";
 
 import { Carousel } from 'flowbite-react';
+import Image from 'next/image';
+import bg1 from '@/assets/bg1.jpg';
+import bg2 from '@/assets/bg2.jpg';
+import bg3 from '@/assets/bg3.jpg';
 
 export default function Slide() {
   return (
     <Carousel>
-      <img
-        alt="..."
-        src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
-      />
-      <img
-        alt="..."
-        src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-      />
-      <img
-        alt="..."
-        src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-      />
-      <img
-        alt="..."
-        src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-      />
-      <img
-        alt="..."
-        src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-      />
+      <Image src={bg1} alt='bg1'/>
+      <Image src={bg2} alt='bg2'/>
+      <Image src={bg3} alt='bg2'/>
     </Carousel>
   )
 }
