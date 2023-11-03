@@ -4,10 +4,10 @@ import { Footer } from "flowbite-react";
 import Image from "next/image";
 import applestore from "@/assets/applestore.svg";
 import googleplay from "@/assets/googleplay.svg";
-import face from "@/assets/face.svg";
-import pinterest from "@/assets/pinterest.svg";
-import instagram from "@/assets/instagram.svg";
 import logo from "@/assets/logo.svg";
+import facebook from '@/assets/facebook.svg'
+import instagram from '@/assets/instagram.svg'
+import pinterest from '@/assets/pinterest.svg'
 
 export default function FooterWithSocialMediaIcons() {
   return (
@@ -81,25 +81,15 @@ export default function FooterWithSocialMediaIcons() {
                 className="m-2"
                 style={{ color: "white" }}
               />
-              <Footer.LinkGroup row>
+              <Footer.LinkGroup row className="m-2">
                 <Footer.Link href="#">
-                  <Image src={face} alt="Facebook" width={50} height={50} />
+                  <Image src={facebook} alt="" width={30} height={30}/>
                 </Footer.Link>
                 <Footer.Link href="#">
-                  <Image
-                    src={pinterest}
-                    alt="Pinterest"
-                    width={60}
-                    height={60}
-                  />
+                <Image src={pinterest} alt="" width={30} height={30}/>
                 </Footer.Link>
                 <Footer.Link href="#">
-                  <Image
-                    src={instagram}
-                    alt="Instagram"
-                    width={60}
-                    height={60}
-                  />
+                <Image src={instagram} alt="" width={30} height={30}/>
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
