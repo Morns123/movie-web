@@ -10,7 +10,7 @@ export default function Slide() {
   return (
     <>
       <Carousel>
-        <div className="relative w-full bg-black">
+        <div className="relative w-full">
           {/* Pembungkus Carousel */}
           <div className="relative h-56 overflow-hidden md:h-96">
             {/* Item 1 */}
