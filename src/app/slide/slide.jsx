@@ -14,17 +14,9 @@ export default function Slide() {
           {/* Pembungkus Carousel */}
           <div className="relative h-56 overflow-hidden md:h-96">
             {/* Item 1 */}
-            <div>
-              <Image src={bg1} alt="" />
-            </div>
-            {/* Item 2 */}
-            <div>
-              <Image src={bg2} alt="" />
-            </div>
-            {/* Item 3 */}
-            <div>
-              <Image src={bg3} alt="" />
-            </div>
+            <Image src={bg1} alt="" />
+            <Image src={bg2} alt="" />
+            <Image src={bg3} alt="" />
           </div>
         </div>
       </Carousel>
