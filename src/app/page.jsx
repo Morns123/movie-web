@@ -8,7 +8,7 @@ import FooterWithLogo from "./footer/footer";
 export default function Home() {
   return (
     <>
-      <header className="md:flex py-2 p-2 shadow-md shadow-gray-600">
+      <header className="md:flex py-2 p-2">
         <nav className="flex container mx-auto justify-between items-center">
           <Image
             src={logo}
