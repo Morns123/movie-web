@@ -3,7 +3,7 @@ import logo from "@/assets/logo.svg";
 import ListMovie from "./sections/ListMovie";
 import SigninPop from "./signin/page";
 import Slide from "./slide/slide";
-import FooterWithLogo from "./footer/footer";
+import FooterWithSocialMediaIcons from "./footer/footer";
 
 export default function Home() {
   return (
@@ -34,7 +34,7 @@ export default function Home() {
         <ListMovie />
       </main>
       <footer>
-      <FooterWithLogo />
+      <FooterWithSocialMediaIcons />
       </footer>
     </>
   );
