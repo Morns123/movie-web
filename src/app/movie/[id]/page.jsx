@@ -1,9 +1,11 @@
 "use client";
+
 import Image from "next/image";
 import logo from "@/assets/logo.svg";
 import SigninPop from "@/app/signin/page";
 import Overview from "@/app/details/overview";
 import FooterWithSocialMediaIcons2 from "@/app/footer/newFooter";
+import Slide from "@/app/slide/slide";
 
 export default function Page() {
   return (
@@ -29,6 +31,7 @@ export default function Page() {
           </div>
         </nav>
       </header>
+      <Slide />
       <main>
         <Overview />
       </main>
