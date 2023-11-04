@@ -1,8 +1,8 @@
 import Image from "next/image";
-import logo from "@/assets/logo.svg";
-import ListMovie from "./sections/ListMovie";
-import SigninPop from "./signin/page";
 import Slide from "./slide/slide";
+import logo from "@/assets/logo.svg";
+import SigninPop from "./signin/page";
+import ListMovie from "./sections/ListMovie";
 import FooterWithSocialMediaIcons from "./footer/footer";
 
 export default function Home() {
@@ -34,7 +34,7 @@ export default function Home() {
         <ListMovie />
       </main>
       <footer>
-      <FooterWithSocialMediaIcons />
+        <FooterWithSocialMediaIcons />
       </footer>
     </>
   );

@@ -1,9 +1,9 @@
 "use client";
-import Overview from "@/app/details/overview";
-import logo from "@/assets/logo.svg";
 import Image from "next/image";
+import logo from "@/assets/logo.svg";
 import SigninPop from "@/app/signin/page";
-import FooterWithSocialMediaIcons from "@/app/footer/footer";
+import Overview from "@/app/details/overview";
+import FooterWithSocialMediaIcons2 from "@/app/footer/newFooter";
 
 export default function Page() {
   return (
@@ -33,7 +33,7 @@ export default function Page() {
         <Overview />
       </main>
       <footer>
-        <FooterWithSocialMediaIcons />
+        <FooterWithSocialMediaIcons2 />
       </footer>
     </>
   );
