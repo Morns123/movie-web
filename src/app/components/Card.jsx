@@ -1,6 +1,6 @@
 import { imageUrl } from "@/lib/api"
 import Image from "next/image"
-import {AiTwotoneStar} from 'react-icons/ai'
+import {BsFillPeopleFill} from 'react-icons/bs'
 
 export default function Card({
     image,
@@ -18,7 +18,7 @@ export default function Card({
                     <div>
                         <p>{overview.length > 50 ? overview.slice(0, 50) + '...' : overview}</p>
                     </div>
-                    <p className="flex items-center gap-2"><AiTwotoneStar/>{popularity}</p>
+                    <p className="flex items-center gap-2"><BsFillPeopleFill/>{popularity}</p>
                 </div>
             </div>
         </>

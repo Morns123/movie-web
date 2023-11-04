@@ -29,7 +29,7 @@ export default function ListMovie() {
         </select>
       </div>
       <div className="grid lg:grid-cols-5 sm:grid-cols-3 grid-cols-1 justify-center sm:justify-around gap-5">
-        {data?.results?.map((item, index) => (
+        {data?.results?.map((item) => (
           <Link href={`/movie/${item.id}}`} key={item.id}>
             <Card
               image={item.poster_path}
