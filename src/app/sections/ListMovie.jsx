@@ -20,7 +20,7 @@ export default function ListMovie() {
           name=""
           id=""
           onChange={(e) => setSortBy(e.target.value)}
-          className="bg-gray-200 rounded-lg mb-10 pl-1 pt-1 pr-1 pb-1"
+          className="bg-blue-200 rounded-lg mb-10 pl-1 pt-1 pr-1 pb-1"
         >
           <option value="popularity.desc">Popularity Desc</option>
           <option value="popularity.asc">Popularity Asc</option>
